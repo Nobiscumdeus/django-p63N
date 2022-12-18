@@ -4,5 +4,5 @@ app_name='basic'
 
 urlpatterns=[
     path('',views.home,name='home'),
-    path('html',views.html,name='html'),
+    path('html/',views.html,name='html'),
 ]
